@@ -15,5 +15,9 @@ module ApplicationHelper
         content_tag(:p, greeting, class: "source-greeting")
        end
   end
-end
 
+  def copyright_generator
+    DevcampViewTool::Renderer.copyright 'Jordan Haudgens', 'All rights reserved'
+  end
+
+end
