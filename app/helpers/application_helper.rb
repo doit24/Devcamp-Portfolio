@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    DevcampViewTool::Renderer.copyright 'Jordan Haudgens', 'All rights reserved'
+    DevcampViewTool::Renderer.copyright 'Retador Co., Ltd.', 'All rights reserved'
   end
 
   def nav_items
