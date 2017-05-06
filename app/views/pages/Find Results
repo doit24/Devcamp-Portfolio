@@ -1,0 +1,44 @@
+Searching 2517 files for "profile.jpg"
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/app/assets/stylesheets/application.scss:
+  217    -webkit-transform: translateX(-50%) translateY(-50%);
+  218    transform: translateX(-50%) translateY(-50%);
+  219:   background: image-url('') no-repeat;
+  220    background-size: cover;
+  221  }
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/app/views/pages/about.html.erb:
+    8  
+    9          <div class="col-md-4">
+   10:           <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: 'profile-img'%>
+   11  
+   12            <div class="skills">
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/-r/-ryibrwZd3Ik20W4mhpP_7FxtS3TpXQ6_AOiQ5-SUFQ.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/7K/7KvCmYCRL57or149fQ4wzbTrQa1AW9afPllk3vwZQnc.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/f2/F2_yfypX5x-DWa7-vcCxq35WJ7zlI6DvQocGqoyued4.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/Gl/gLObWxf50Y_I0-Zi2uKYc-cBdeGHjnVgtGEq69tVCOk.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/hq/hqhI3V5Lln9d_vmZYO4taXn6tzzgTdHAI9cxLHIzhcc.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/Jp/Jp_Yug1jY8BPd77kL09qhOVEBxaSKzcemt6vea6gNzo.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/p6/p6oFnQXQGDNM0VCeYxRKPZ1BhsydmGFvAa3DiI2WN0c.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/P9/P9tFxLWQTVBC2Rr2Yjt84eFKVKmxHjs1dCD4BKCFbYs.cache:
+    <binary>
+
+/Users/doitakayuki/udemy_ruby/DevcampPortfolio/tmp/cache/assets/sprockets/v3.0/SX/SXI8XlZw0_jNqTubQ0IcOnVcaztg0ZN-CPENhvgqgDQ.cache:
+    <binary>
+
+25 matches across 11 files

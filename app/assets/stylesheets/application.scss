@@ -216,7 +216,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('profile.jpg') no-repeat;
+  background: image-url('') no-repeat;
   background-size: cover;
 }
 
@@ -224,17 +224,17 @@ h6, .h6 {
   color: white;
 }
 
-.tech-news{
+.pottery-news{
   color: black;
   margin: 20px;
 }
 
-.tech-news a {
+.pottery-news a {
   color: green;
 }
 
 
-.tech-news > .card  {
+.pottery-news > .card  {
   padding: 30px;
 }
 
