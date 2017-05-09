@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 CarrierWave.configure do |config|
   config.storage    = :aws
   config.aws_bucket = ENV['S3_BUCKET_NAME']
@@ -14,5 +16,4 @@ CarrierWave.configure do |config|
     secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
     region:            ENV['AWS_REGION'] # Required
   }
-
 end

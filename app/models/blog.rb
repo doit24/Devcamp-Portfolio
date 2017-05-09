@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: blogs
@@ -13,7 +15,7 @@
 #
 
 class Blog < ApplicationRecord
-  enum status: { draft: 0, published: 1}
+  enum status: { draft: 0, published: 1 }
   extend FriendlyId
   friendly_id :title, use: :slugged
 
@@ -26,12 +28,12 @@ class Blog < ApplicationRecord
   def self.special_blogs
     all
   end
+
   def self.featured_blogs
     limit(2)
   end
 
   def self.recent
-    order("created_at DESC")
+    order('created_at DESC')
   end
-
 end

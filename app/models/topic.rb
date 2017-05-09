@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: topics
@@ -17,4 +19,3 @@ class Topic < ApplicationRecord
     includes(:blogs).where.not(blogs: { id: nil })
   end
 end
-

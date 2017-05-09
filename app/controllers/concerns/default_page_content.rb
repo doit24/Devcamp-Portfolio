@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module DefaultPageContent
   extend ActiveSupport::Concern
 
@@ -6,8 +8,7 @@ module DefaultPageContent
   end
 
   def set_page_defaults
-    @page_title = "Devcamp Portfolio | My Portfolio Website"
-    @seo_keywords = "Takayuki Doi porfolio"
+    @page_title = 'Devcamp Portfolio | My Portfolio Website'
+    @seo_keywords = 'Takayuki Doi porfolio'
   end
-
 end
