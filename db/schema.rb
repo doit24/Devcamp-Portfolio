@@ -57,7 +57,6 @@ ActiveRecord::Schema.define(version: 20170504063414) do
     t.text     "thumb_image"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-    t.integer  "poisition"
     t.integer  "position"
   end
 
