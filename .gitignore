@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
+/vendor/bundle
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -16,6 +17,7 @@
 # Ignore Byebug command history file.
 .byebug_history
 
-# I don't want to show my secrets
-/config/secrets.yml
+# carrierwave
+/public/uploads
+
 .env

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SocialTool
   def self.twitter_search
     client = Twitter::REST::Client.new do |config|
@@ -7,7 +9,7 @@ module SocialTool
       config.access_token_secret = ENV['TWITTER_ACCESS_SECRET']
     end
 
-    client.search("#陶器市", result_type: 'recent').take(6).collect do |tweet|
+    client.search('#陶器市', result_type: 'recent').take(6).collect do |tweet|
       "#{tweet.user.screen_name}: #{tweet.text}"
     end
   end
