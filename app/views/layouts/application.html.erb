@@ -11,11 +11,11 @@
 
     <%= favicon_link_tag 'favicons/favicon.ico' %>
 
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
@@ -24,6 +24,7 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
+<!--
           <%= video_tag(
             'ceramicmovie.mp4',
             id: 'background',
@@ -33,7 +34,7 @@
             poster: 'home_bg.png'
           )
           %>
-
+-->
           <%= render "shared/application_nav", location:'top' %>
 
           <%= yield %>
